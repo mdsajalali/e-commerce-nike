@@ -1,0 +1,167 @@
+@media (max-width: 1650px) {
+  .slider-img {
+    max-width: 400px;
+  }
+
+  .slider-title {
+    max-width: 400px;
+  }
+
+  .slider-title h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 1180px) {
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slide {
+    flex-direction: column;
+  }
+
+  .slider-img {
+    margin-top: 20rem;
+  }
+
+  #product-featured .items {
+    width: 20%;
+  }
+
+  #product-featured .main {
+    width: 70%;
+  }
+
+  #product-featured .details {
+    width: 100%;
+  }
+
+  #product-featured {
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu {
+    display: block;
+  }
+  .header nav ul {
+    flex-direction: column;
+    position: absolute;
+    top: 7rem;
+    left: -150%;
+    background: var(--background);
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    z-index: 1000;
+  }
+
+  .header nav ul.active {
+    left: 0;
+  }
+
+  .header nav ul li {
+    background: #ffff;
+    padding: 1rem 0;
+    border: 1px solid var(--black);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  .header nav ul li:hover {
+    background: var(--black);
+  }
+
+  .header nav ul li:hover a {
+    color: #ffff;
+  }
+
+  .header nav ul li {
+    margin: 1rem 0;
+  }
+
+  .slider-title h1 {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 0.8rem 2rem;
+  }
+
+  #product-featured .items {
+    width: 30%;
+  }
+
+  #product-featured .main {
+    width: 60%;
+  }
+
+  #product-featured {
+    min-height: 90vh;
+  }
+}
+
+@media (max-width: 700px) {
+  #image-text {
+    display: none;
+  }
+
+  .slider-img {
+    max-width: 300px;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .slider-title {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .product-box img {
+    margin: 5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #product-featured {
+    min-height: 80vh;
+  }
+
+  .box-container {
+    grid-template-columns: 1fr;
+  }
+
+  .customer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .slider-title {
+    text-align: center;
+  }
+
+  .product-box img {
+    margin: 0 0;
+  }
+}
